@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>Battleship</label>
+		<root_path>\</root_path>
+		<output_path>\</output_path>
+		<source_path>\</source_path>
+		<jdkprofile_ref>JDK version 1.8.0_131</jdkprofile_ref>
+		<compiler_ref>&lt;Default&gt;</compiler_ref>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items>
+		<item run="Battleship"/>
+		<item run="OceanGrid"/>
+	</run_items>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref/>
+			<applet_ref/>
+			<debugger_ref/>
+			<param/>
+			<run>Battleship</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<fileitem>
+				<path>Battleship.java</path>
+			</fileitem>
+			<fileitem>
+				<path>ComputerPlayer.java</path>
+			</fileitem>
+			<fileitem>
+				<path>HumanPlayer.java</path>
+			</fileitem>
+			<fileitem>
+				<path>OceanGrid.java</path>
+			</fileitem>
+			<fileitem>
+				<path>Player.java</path>
+			</fileitem>
+			<fileitem>
+				<path>Vessel.java</path>
+			</fileitem>
+		</include>
+	</files>
+	<tasks/>
+</project>
